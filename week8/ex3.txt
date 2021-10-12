@@ -1,0 +1,24 @@
+top - 21:24:25 up  2:38,  1 user,  load average: 0,23, 0,14, 0,08
+Tasks: 288 total,   1 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu0  :  0,0 us,  0,0 sy,  0,0 ni,100,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+%Cpu1  :  5,6 us, 11,1 sy,  0,0 ni, 83,3 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+МиБ Mem :   3901,4 total,   1617,9 free,   1518,6 used,    764,9 buff/cache
+МиБ Swap:   1401,6 total,   1401,6 free,      0,0 used.   2138,2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+   1024 qrama     20   0  300920  73900  41204 S   6,2   1,8   0:24.89 Xorg     
+   3738 qrama     20   0   20684   4148   3380 R   6,2   0,1   0:00.02 top  
+
+top - 21:24:30 up  2:38,  1 user,  load average: 0,21, 0,14, 0,07
+Tasks: 288 total,   1 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu0  :  0,0 us,  0,0 sy,  0,0 ni,100,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+%Cpu1  :  5,9 us, 11,8 sy,  0,0 ni, 82,4 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+МиБ Mem :   3901,4 total,   1217,3 free,   1919,3 used,    764,9 buff/cache
+МиБ Swap:   1401,6 total,   1401,6 free,      0,0 used.   1737,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+   1024 qrama     20   0  300920  73900  41204 S   6,2   1,8   0:24.95 Xorg     
+   1306 qrama     20   0 4086808 253332 106040 S   6,2   6,3   0:42.93 gnome-s+ 
+   1641 qrama     20   0  825340  53944  40776 S   6,2   1,4   0:07.57 gnome-t+ 
+   3538 root      20   0       0      0      0 I   6,2   0,0   0:04.82 kworker+ 
+   3742 qrama     20   0   20684   4104   3332 R   6,2   0,1   0:00.02 top  
