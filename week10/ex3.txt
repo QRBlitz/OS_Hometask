@@ -1,0 +1,29 @@
+-rw-rw-r-- 1 qrama qrama 0 окт 27 00:24 _ex3.txt
+-rw-rw-r-- 1 qrama qrama 0 окт 27 00:24 _ex3.txt
+-rwxrw-rwx 1 qrama qrama 0 окт 27 00:24 _ex3.txt
+-rwxrwxrwx 1 qrama qrama 0 окт 27 00:24 _ex3.txt
+
+
+The number specified for the permission is in octal, and the individual bits correspond to the rwx permission for each user type.
+
+
+What does 660 mean for ex3.txt?
+	 u   g   o
+	110 110 000
+	rw- rw- ---
+
+User and group can read and write, and others cannot do anything
+
+What does 775 mean for ex3.txt?
+	 u   g   o
+	111 111 101
+	rwx rwx r-x
+	
+User and group can do anything, others can read and execute
+
+What does 777 mean for ex3.txt?
+	 u   g   o
+	111 111 111
+	rwx rwx rwx
+
+Everyone can read, write, and execute the file
